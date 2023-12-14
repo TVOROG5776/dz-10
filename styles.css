@@ -1,0 +1,150 @@
+:root {
+    --text-color: #212121;
+    --smoky-color: #757575;
+    --h5-color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: inline;
+}
+
+.logo > p {
+    color: #2196F3;
+    font-size: 26px;
+    display: inline;
+    font-weight: 600;
+}
+
+.logo > p > span {
+    color: #000000;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+header {
+    margin-bottom: 94px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav > a {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.links {
+    text-align: right;
+}
+
+.link {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.filters {
+    text-align: center;
+}
+
+button {
+    width: 125px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    margin-top: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+button:active {
+    cursor: default;
+}
+
+.cart {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    text-align: center;
+    margin: 2%;
+    font-weight: 700;
+}
+
+.cart > h4 {
+    color: var(--text-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+}
+
+.logo-footer {
+    padding-top: 60px;
+    padding-left: 215px;
+}
+
+.logo-footer > p {
+    color: #2196F3;
+    font-size: 26px;
+    display: inline;
+    font-weight: 600;
+}
+
+.logo-footer > p > span {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #2F303A;
+    height: 252px;
+}
+
+address {
+    line-height: 29px;
+    padding-left: 215px;
+    font-style: normal;
+    color: var(--smoky-color);
+    font-weight: 600;
+}
+
+
+
+.links-footer > a {
+    color: white;
+    font-style: normal;
+}
+
+address:hover {
+    cursor: pointer;
+}
+
+address:active {
+    cursor: default;
+}
+
+.adress {
+    color: var(--smoky-color);
+}
